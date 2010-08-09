@@ -1,0 +1,32 @@
+Bill Of Materials (MXP)
+
+#  Components             $
+
+2  1N4002                 1
+1  0.1uF @ 50V            5
+1  1000uF @ 16V           3
+2  330 @ 0.5W             1
+2  10K @ 0.5W             1
+1  Green Led
+1  Red Led
+1  Push Button
+
+#  ICs                    $
+
+1  ULN2803A               8
+1  74164                  8
+1  7805                   6
+1  7404                   6
+2  L293D                 55
+
+#  Connectors             $
+
+1  FTC-2-4P              14
+1  FTC-2-20P             18
+1  Female power plug
+1  Dual row pins
+
+#  Modules                $
+
+1  EPT-1019HW2          242
+1  Arduino Duemilanove  450
