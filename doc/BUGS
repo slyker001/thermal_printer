@@ -1,0 +1,23 @@
+* Bugs
+
+  [ TODO: English version. ]
+
+------------------------------------------------------------------------
+
+* Errores
+
+  + Desviación vertical de 1 punto
+
+    Los motores comparten las lineas de control y durante el movimiento
+    de la cabeza térmica el motor de papel esta desactivado. Mantener
+    el paso en el motor de papel puede ser la solución a este problema
+    ocasional.
+
+  + Perdida de potencia
+
+    Durante periodos de impresión que requieren demasiada potencia la
+    impresora pierde velocidad. Una caída de tensión en la fuente de
+    poder, probablemente causada por sobrecalentamiento en el regulador
+    de voltaje, es la causa de este problema. Se requiere una revisión
+    de la sección de potencia para el cabezal térmico y la fuente de
+    poder.
