@@ -132,6 +132,9 @@ void loop (void) {
     case 'b':
       modeBinary();
       break;
+    case 's':
+      Serial.println("!");
+      break;
       // default
     default:
       modeHelp();
@@ -182,6 +185,7 @@ void modeHelp (void) {
   Serial.println("modes:");
   Serial.println("a - binary mode");
   Serial.println("b - ascii mode");
+  Serial.println("s - status");
   Serial.println();
   Serial.println("tests:");
   Serial.println("x - basic test");
