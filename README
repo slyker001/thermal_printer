@@ -9,7 +9,7 @@
   Este es el proyecto de una impresora térmica controlada por un
   Arduino alrededor del módulo Panasonic EPT-1019HW2. Utiliza papel de
   2" (58 mm), tiene una resolución de 96 puntos e incluye una
-  tipografía de 6x8 (32 caracteres por linea).
+  tipografía de 6x8 puntos (32 caracteres por linea).
 
 * Contenido
 
@@ -20,7 +20,7 @@
 
 * Esquemas eléctricos
 
-  Dibujados con gschem 1.6, http://www.gpleda.org
+  Dibujados con gschem 1.6 [1] 
 
   + motors.sch - Sección de potencia y control para los motores a pasos.
   + dtp.sch    - Fuente de poder; sección de potencia y control para el
@@ -40,9 +40,9 @@
 
 * Tipografía
 
-  Indexada por su código ASCII. 
+  Definida en Font.h, indexada por su código ASCII. 
 
-  5 columnas de bytes, por ejemplo, para la A (código 97):
+  5 columnas de bytes, por ejemplo para la A (índice 97):
 
   #define FT97  0x1F, 0x24, 0x44, 0x24, 0x1F
        
@@ -55,12 +55,13 @@
        X...X
   LSB  X...X
 
-  Y después se agrega automáticamente una columna en blanco para
-  separar los caracteres, así tenemos una tipografía de 6x8 puntos.
+  Al momento de imprimir se agrega automáticamente una columna en
+  blanco para separar los caracteres, así tenemos una tipografía de 6x8
+  puntos.
 
 * Sketchbook
 
-  Para Arduino 0018, http://arduino.cc
+  Para Arduino 0018 [2]
 
   + Conf.h   - Definición de puertos y características mecánicas del
                módulo de impresión.
@@ -95,3 +96,8 @@
   El modo ASCII tiene un buffer de 32 caracteres que corresponden a
   una linea. Para cancelar la linea y regresar al modo comando enviar
   ESC (0x1B).
+
+* Notas
+
+  1. http://www.gpleda.org
+  2. http://arduino.cc
