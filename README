@@ -16,7 +16,7 @@
   + doc - Listas de partes, errores y pendientes.
   + pdf - Hojas de datos.
   + sch - Esquemas eléctricos.
-  + src - Sketchbook.
+  + sketch - Sketchbook para IDE de Arduino.
 
 * Esquemas eléctricos
 
