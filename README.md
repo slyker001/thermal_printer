@@ -12,8 +12,8 @@ tipografía de 6x8 puntos que permite imprimir 32 caracteres por linea.
 **Mecanica del módulo de impresión**
 
 Cada punto de impresión, vertical u horizontal, corresponde a dos pasos
-del motor correspondiente. Los limites del módulo de impresión,
-expresados en pasos de motor, son:
+del motor correspondiente. Los limites del módulo de impresión
+expresados en pasos de motor son:
 
 ```
 3     5     68                                                      384
@@ -57,9 +57,9 @@ características mecánicas del módulo de impresión.
 
 ### Tipografía
 
-Indexada por su código ASCII y codificada en 5 bytes que corresponden a
-cada columna del carácter. Por ejemplo, la definición para la A (índice
-97) es:
+Los caracteres estan indexados por su código ASCII y codificados en 5
+bytes que corresponden a los puntos de cada columna. Por
+ejemplo, la definición para la letra A con índice 97 es:
 
 `#define FT97  0x1F, 0x24, 0x44, 0x24, 0x1F`
 
@@ -82,7 +82,8 @@ tipografía de 6x8 puntos.
 
 ### Comandos
 
-Comunicación vía serial a 9600 bps, comandos disponibles:
+La comunicación es vía serial a 9600 bps y los comandos disponibles
+son:
 
 **Acciones básicas**
 
