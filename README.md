@@ -57,12 +57,13 @@ características mecánicas del módulo de impresión.
 
 ### Tipografía
 
-Indexada por su código ASCII y codificada 5 columnas de bytes, por
-ejemplo para la A (índice 97):
+Indexada por su código ASCII y codificada en 5 bytes que corresponden a
+cada columna del carácter. Por ejemplo, la definición para la A (índice
+97) es:
 
 `#define FT97  0x1F, 0x24, 0x44, 0x24, 0x1F`
 
-Que corresponde a:
+Y en puntos impresos corresponde a:
 
 ```       
 MSB  .....
@@ -75,8 +76,9 @@ MSB  .....
 LSB  X...X
 ```
 
-Al momento de imprimir se agrega automáticamente una columna en blanco
-para separar los caracteres y así tenemos una tipografía de 6x8 puntos.
+Al momento de imprimir se agrega automáticamente a la derecha una
+columna en blanco para separar los caracteres y así tenemos una
+tipografía de 6x8 puntos.
 
 ### Comandos
 
