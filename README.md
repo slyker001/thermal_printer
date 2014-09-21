@@ -94,6 +94,7 @@ son:
    r - Head return
    f - Paper forward
    e - Paper feed
+   s - Status
 ```
 
 **Pruebas**
@@ -109,7 +110,6 @@ son:
 ```
    a - ASCII
    b - Binary
-   s - Status
 ```
 
 El modo ASCII tiene un buffer de 32 caracteres que corresponden a una
