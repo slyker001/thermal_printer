@@ -9,7 +9,7 @@ El módulo de impresión utiliza papel térmico de 2" (58 mm) y tiene una
 resolución horizontal de 96 puntos. Este proyecto incluye una
 tipografía de 6x8 puntos que permite imprimir 32 caracteres por linea.
 
-**Mecanica del módulo de impresión**
+**Mecánica del módulo de impresión**
 
 Cada punto de impresión, vertical u horizontal, corresponde a dos pasos
 del motor correspondiente. Los limites del módulo de impresión
@@ -27,7 +27,7 @@ Prototipo
 
 ![Prototipo](img/thermal_printer.jpg "Prototipo")
 
-Esquematicos
+Esquemáticos
 ------------
 
 Dibujados con [gschem](http://www.gpleda.org) 1.6:
@@ -57,7 +57,7 @@ características mecánicas del módulo de impresión.
 
 ### Tipografía
 
-Los caracteres estan indexados por su código ASCII y codificados en 5
+Los caracteres están indexados por su código ASCII y codificados en 5
 bytes que corresponden a los puntos de cada columna. Por
 ejemplo, la definición para la letra A con índice 97 es:
 
