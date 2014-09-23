@@ -12,7 +12,7 @@ tipografía de 6x8 puntos que permite imprimir 32 caracteres por linea.
 Prototipo
 ---------
 
-![Prototipo](img/thermal_printer.jpg "Prototipo")
+![Prototipo](img/prototype.jpg "Prototipo")
 
 También puedes ver el [video de la impresora térmica en
 funcionamiento](http://vimeo.com/13995215).
