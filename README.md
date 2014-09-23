@@ -14,7 +14,7 @@ Prototipo
 
 ![Prototipo](img/thermal_printer.jpg "Prototipo")
 
-También esta disponible el [video del prototipo de impresora térmica en
+También puedes ver el [video de la impresora térmica en
 funcionamiento](http://vimeo.com/13995215).
 
 Esquemáticos
