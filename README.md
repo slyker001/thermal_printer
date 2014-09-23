@@ -2,25 +2,15 @@ Impresora Térmica
 =================
 
 Este proyecto implementa una impresora térmica controlada por un
-[Arduino](http://arduino.cc) alrededor del módulo [Panasonic
-EPT-1019HW2](doc/EPT-1019HW2.pdf).
+[Arduino](http://arduino.cc) alrededor del módulo de impresión
+[Panasonic EPT-1019HW2](doc/EPT-1019HW2.pdf).
 
 El módulo de impresión utiliza papel térmico de 2" (58 mm) y tiene una
 resolución horizontal de 96 puntos. Este proyecto incluye una
 tipografía de 6x8 puntos que permite imprimir 32 caracteres por linea.
 
-**Mecánica del módulo de impresión**
-
-Cada punto de impresión, vertical u horizontal, corresponde a dos pasos
-del motor correspondiente. Los limites del módulo de impresión
-expresados en pasos de motor son:
-
-```
-3     5     68                                                      384
-|.....|.....|.........................................................|
- home  head  min                                                   max
-       park
-```
+Si lo deseas puedes ver un [video del prototipo de impresora
+térmica](http://vimeo.com/13995215) en funcionamiento.
 
 Prototipo
 ---------
@@ -55,6 +45,19 @@ características mecánicas del módulo de impresión.
 
 [sketch/DTP/DTP.pde](sketch/DTP/DTP.pde) - Código fuente del firmware.
 
+### Mecánica del módulo de impresión
+
+Cada punto de impresión, vertical u horizontal, corresponde a dos pasos
+del motor correspondiente. Los limites del módulo de impresión
+expresados en pasos de motor son:
+
+```
+3     5     68                                                      384
+|.....|.....|.........................................................|
+ home  head  min                                                   max
+       park
+```
+
 ### Tipografía
 
 Los caracteres están indexados por su código ASCII y codificados en 5
@@ -80,10 +83,10 @@ Al momento de imprimir se agrega automáticamente a la derecha una
 columna en blanco para separar los caracteres y así tenemos una
 tipografía de 6x8 puntos.
 
-### Comandos
+### Interfaz
 
-La comunicación es vía serial a 9600 bps y los comandos disponibles
-son:
+La comunicación con la impresora es vía serial a 9600 bps y los
+comandos disponibles son:
 
 **Acciones básicas**
 
