@@ -9,13 +9,13 @@ El módulo de impresión utiliza papel térmico de 2" (58 mm) y tiene una
 resolución horizontal de 96 puntos. Este proyecto incluye una
 tipografía de 6x8 puntos que permite imprimir 32 caracteres por linea.
 
-Si lo deseas puedes ver un [video del prototipo de impresora
-térmica](http://vimeo.com/13995215) en funcionamiento.
-
 Prototipo
 ---------
 
 ![Prototipo](img/thermal_printer.jpg "Prototipo")
+
+También esta disponible el [video del prototipo de impresora térmica en
+funcionamiento](http://vimeo.com/13995215).
 
 Esquemáticos
 ------------
