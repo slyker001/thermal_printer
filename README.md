@@ -5,7 +5,7 @@ This project implements a thermal printer controlled by a
 [Arduino](http://arduino.cc) around the printing module
 [Panasonic EPT-1019HW2](doc/EPT-1019HW2.pdf) (in original work, will replace /w something like [LTP3445](http://zival.ru/sites/default/files/download/ltp3445.pdf)).
 
-
+[info i will use](http://zival.ru/content/printsip-raboty-termopechatayushchei-golovki)
 ------ i will update it later
 
 The printing module uses 2" (58 mm) thermal paper and has a
